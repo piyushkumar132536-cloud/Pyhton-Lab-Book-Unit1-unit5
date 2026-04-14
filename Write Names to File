@@ -1,0 +1,6 @@
+f = open("names.txt", "w") 
+ 
+name = input("Enter name: ") 
+f.write(name) 
+ 
+f.close()
