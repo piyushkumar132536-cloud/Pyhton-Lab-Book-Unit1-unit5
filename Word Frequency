@@ -1,0 +1,7 @@
+text = input("Enter text: ").lower() 
+words = text.split() 
+d = {} 
+for w in words: 
+d[w] = d.get(w, 0) + 1 
+for k in sorted(d): 
+print(k, ":", d[k])
